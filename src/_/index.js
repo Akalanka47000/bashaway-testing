@@ -3,6 +3,8 @@ import { functionCalls, functionCallFollowedByAnd, compactString } from "./patte
 export { compactString };
 
 export * from "./commands";
+export * from "./git";
+export * from "./restrict";
 export * from "./secrets";
 
 export const cleanLogs = (code) =>
