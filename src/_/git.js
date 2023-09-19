@@ -3,8 +3,8 @@ import axios from "axios";
 
 export const commitList = async (urlOrPath) => {
     if (urlOrPath?.includes("https://")) {
-        await exec(`git clone ${urlOrPath} dist`)
-        process.chdir("dist")
+        await exec(`git clone ${urlOrPath} out`)
+        process.chdir("out")
     } else {
         process.chdir(urlOrPath)
     }
