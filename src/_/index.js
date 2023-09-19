@@ -1,6 +1,6 @@
 import { functionCalls, functionCallFollowedByAnd, compactString, isStrongPassword } from "./patterns";
 
-export { compactString };
+export { compactString, isStrongPassword };
 
 export * from "./commands";
 export * from "./git";
