@@ -1,4 +1,4 @@
-import { functionCalls, functionCallFollowedByAnd, compactString } from "./patterns";
+import { functionCalls, functionCallFollowedByAnd, compactString, isStrongPassword } from "./patterns";
 
 export { compactString };
 
