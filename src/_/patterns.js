@@ -10,4 +10,4 @@ export const compactString = (str) =>
     .replace(/\s/g, "")
     .trim();
     
-export const isStrongPassword = (str) => str.match(/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[#$@!%&*?])[A-Za-z\d#$@!%&^()._*?]{8,30}$/)
+export const isStrongPassword = (str) => str.match(/^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}$/)
