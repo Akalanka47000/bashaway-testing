@@ -1,6 +1,6 @@
 {
   "name": "@sliit-foss/bashaway",
-  "version": "1.6.0-blizzard.0",
+  "version": "1.6.0-blizzard.5",
   "description": "Utility functions for SLIIT Bashaway test automation",
   "main": "dist/index.js",
   "types": "types/index.d.ts",
